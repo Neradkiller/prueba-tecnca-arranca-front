@@ -82,7 +82,4 @@ La aplicación se integra de manera agnóstica a un backend REST versionado en u
    
 4. **Barrera de Validación Zod + React Hook Form:**
    Los formularios jamás permiten malgastar solicitudes a la API de red si detectan que falta un requisito mandatorio en el local. Gracias a esquemas estrictos (ej. validación cruzada confirmando que contraseñas coincidan o fechas de término imposibles por preceder al inicio temporal) toda la lógica de validación reside de puente unificado entre React Hook Form y Zod.
-   
-5. **Decisiones Claves de Perfeccionamiento en Interfaces/UX:**
-   - **Contraste Seguro en DOM Arbitrario JIT:** Ante incidencias en la inyección subyacente del *Tailwind Config System*, se implementó un *overwriting* mediante valores arbitrarios puros `text-[#ffffff]` garantizando un 100% legibilidad AA ante interfaces nocturnas de componente principal.
-   - **Aislamiento Semántico (Cards UI):** Convertimos espacios previamente vacíos y planos tanto en Login como en Register en verdaderas cápsulas tridimensionales. Modificamos el nodo raíz en tarjetas con gran sombra volumétrica (`shadow-2xl`) y radio de borde de 32px para concentrar la óptica atencional del consumidor. Transformamos visualmente tablas informacionales al Dashboard en componentes atractivos que resaltan jerarquías al instante.
+
