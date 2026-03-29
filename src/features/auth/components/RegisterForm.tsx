@@ -79,7 +79,7 @@ export const RegisterForm = () => {
 
   return (
     <main className="min-h-screen flex items-center justify-center p-6 md:p-12 overflow-hidden bg-surface font-body text-on-surface selection:bg-secondary-container selection:text-on-secondary-container">
-      <section className="w-full max-w-md relative z-10">
+      <section className="w-full max-w-md relative z-10 bg-surface-container-lowest p-8 sm:p-12 rounded-[2rem] shadow-2xl border border-outline-variant/20">
         {/* Branding Header */}
         <div className="mb-12 text-center">
           <h1 className="font-headline text-4xl font-bold italic text-primary">Notas Arranca Capital</h1>
